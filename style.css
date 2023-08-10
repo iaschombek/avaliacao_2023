@@ -1,0 +1,49 @@
+@import url(styles/header.css);
+@import url(styles/heart.css);
+@import url(styles/carrossel.css);
+@import url(styles/cards.css);
+@import url(styles/dorgaos.css);
+@import url(styles/dsangue.css);
+@import url(styles/oqépreciso.css);
+@import url(styles/footer.css);
+@import url(styles/carteirinha_sangue.css);
+@import url(styles/como_a_coleta.css);
+@import url(styles/carrossel__sangue.css);
+@import url(styles/onde_doar_s.css);
+@import url(styles/como_doar_org.css);
+@import url(styles/doadores.css);
+@import url(styles/quais_orgaos.css);
+@import url(styles/lista_espera.css);
+@import url(styles/riscos.css);
+
+:root{
+    --cor-branco: #FFFFFF;
+    --cor-de-fundo: #D9ABFF;
+    --cor-hover : #fb3f25;
+    --cor-primaria : #fff;
+    --cor-do-titulo-carrossel: red;
+    --cor-do-card1: #ABE4FF;
+    --cor-do-card2: #FBC5D8;
+    --cor-preto: #000000;
+    --cor-de-azul: #4122d9;
+    --cor-do-retangulo: #c181ff;
+    --cor-do-fundo-carrossel:#d572ea;
+    --fonte-principal: "Quicksand";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
+.sangue{
+    height: 500px;
+    left: 1px;
+    top: 270px;
+background: var(--cor-de-fundo);
+}
+.sangueeórgãos{
+    height: 500px;
+}

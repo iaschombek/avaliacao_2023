@@ -1,0 +1,118 @@
+body{
+  font-family: var(--fonte-principal);
+}
+.foo_ter{
+  width: 100%;
+  height: 250px;
+  background-color: var(--cor-do-fundo-carrossel);
+}
+.logo{
+  width: 160px;
+  height: 160px;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.wilson{
+  font-size: 35px;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -17%;
+}
+.wilson a{
+  text-decoration: none;
+  color: var(--cor-preto);
+}
+.btn {
+  display: grid;
+  place-items: center;
+  background: #e3edf7;
+  padding: 1.4em;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7);
+  border: 1px solid rgba(0,0,0,0);
+  cursor: pointer;
+  transition: transform 0.5s;
+  margin-left: 23%;
+  margin-top: 3%;
+}
+  
+.btn:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+            inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1),
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+  transform: translateY(0.5em);
+}
+  
+.btn svg {
+  transition: transform 0.5s;
+}
+  
+.btn:hover svg {
+  transform: scale(0.9);
+  fill: #333333;
+}
+
+.Btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.svgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all .3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+
+
+/* 768px - 1024px = telas menores, laptops */
+@media screen and (min-width: 768px) {
+    
+}
+/* 1024px - 1200px = desktop */
+@media screen and (min-width: 1024px) {
+  .wilson{
+    font-size: 35px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: -12%;
+  }
+  .btn{
+    margin-left: 23%;
+    margin-top: 1%;
+  }
+  .logo{
+    margin-top: 4%;
+    margin-left: 3%;
+  }
+}
+
+  
+  
+  

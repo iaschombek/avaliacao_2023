@@ -1,0 +1,113 @@
+body{
+  font-family: var(--fonte-principal);
+}
+.cabecalho{
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+/*Botão 1*/
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 10vw;
+    z-index: 2;
+    list-style: none;
+}
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+.lista-menu__link{
+    background-color: var(--cor-de-fundo);
+    color: rgb(155, 21, 21);
+    text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+.opções__doação, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--cor-branco);
+    list-style: none;
+}
+.container__botao{
+    display: none;
+}
+/*Botão 2*/
+.container__botao2:checked~.lista-menu{
+  display: block;
+}
+.lista-menu__link{
+  background-color: var(--cor-de-fundo);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--cor-de-azul);
+  text-decoration: none;
+}
+
+.opções__doação2, .lista-menu__item{
+  padding: 1em;
+  background-color: var(--cor-branco);
+  list-style: none;
+}
+.container__botao2{
+  display: none;
+}
+
+
+/* === removing default button style ===*/
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(24, 176, 196, 0.6);
+  --animation-color: #b23dff;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+/* 768px - 1024px = telas menores, laptops */
+@media screen and (min-width: 768px) {
+    
+}
+/* 1024px - 1200px = desktop */
+@media screen and (min-width: 1024px) {
+    
+}
