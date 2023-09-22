@@ -1,0 +1,62 @@
+body{
+    font-family: var(--fonte-principal);
+}
+.retangulo{
+    width: 100%;
+    height: 79px;
+    flex-shrink: 0;
+    background-color: var(--cor-do-retangulo);
+}
+.risocs__transplante{
+    width: 100%;
+    height: 123px;
+    flex-shrink: 0;
+    color: var(--cor-do-titulo-carrossel);
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.riscos__cards{
+    display: flex;
+}
+/*card1*/
+.card8 {
+    width: 540px;
+    height: 354px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+    margin: 3em;
+    margin-left: 20em;
+   }
+   
+   .card8:hover {
+    border: #006fff 0.2em solid;
+   }
+   .card_risco__1{
+    font-size: 27px;
+    margin: 3em;
+   }
+/*card2*/
+   .card9 {
+    width: 540px;
+    height: 354px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+    margin: 3em;
+   }
+   
+   .card9:hover {
+    border: #006fff 0.2em solid;
+   }
+   .card_risco_2{
+    font-size: 30px;
+    margin: 3em;
+   }
