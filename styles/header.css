@@ -14,7 +14,7 @@
       display: none;
       position: absolute;
       top: 100%;
-      width: 10vw;
+      width: 25vw;
       z-index: 2;
       list-style: none;
   }
@@ -59,7 +59,7 @@
   .container__botao2{
     display: none;
   }
-  
+
   
   /* === removing default button style ===*/
   .button {
